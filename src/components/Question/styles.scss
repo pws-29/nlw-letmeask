@@ -60,10 +60,24 @@
             background: transparent;
             cursor: pointer;
             transition: filter 0.2s;
+            
+            &.likebutton {
+                // display: flex;
+                align-items: center;
+                color: #737380;
+                gap: 8px;
 
+                span {
+                    display: inline;
+                    vertical-align: super;
+                    margin: 8px;
+                }
+
+            }
+            
             &.like-button {
                 display: flex;
-                align-items: flex-end;
+                align-items: center;
                 color: #737380;
                 gap: 8px;
 
